@@ -33,8 +33,7 @@ const steps = [
 
 export default function ProcessStepsSection() {
   const handleWhatsAppClick = () => {
-    const message = encodeURIComponent("Olá! Gostaria de saber mais sobre o processo de desbloqueio da minha conta pelo SISBAJUD.");
-    window.open(`https://wa.me/5511999999999?text=${message}`, '_blank');
+    window.open('https://api.whatsapp.com/send/?phone=5586999765214&text=Ol%C3%A1%21+Tive+minha+conta+banc%C3%A1ria+bloqueada+e+gostaria+de+saber+como+prosseguir.&type=phone_number&app_absent=0', '_blank');
   };
 
   return (
@@ -103,11 +102,8 @@ export default function ProcessStepsSection() {
               onClick={handleWhatsAppClick}
               className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-lg shadow-cta transition-all duration-300 transform hover:scale-105"
             >
-              🚀 Iniciar Atendimento Agora
+              🔓 Quero falar com um advogado
             </button>
-            <p className="text-sm text-yellow-300 mt-3">
-              ⏱️ Primeira consulta: 100% gratuita
-            </p>
           </div>
         </div>
       </div>

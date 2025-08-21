@@ -53,7 +53,7 @@ export default function ContactFormSection() {
     const whatsappMessage = encodeURIComponent(
       `Olá! Meu nome é ${formData.name}. Preciso de ajuda com desbloqueio SISBAJUD. Telefone: ${formData.phone}`
     );
-    window.open(`https://wa.me/5511999999999?text=${whatsappMessage}`, '_blank');
+    window.open('https://api.whatsapp.com/send/?phone=5586999765214&text=Ol%C3%A1%21+Tive+minha+conta+banc%C3%A1ria+bloqueada+e+gostaria+de+saber+como+prosseguir.&type=phone_number&app_absent=0', '_blank');
   };
 
   return (
@@ -163,7 +163,7 @@ export default function ContactFormSection() {
                     </div>
                     <div>
                       <h4 className="font-semibold">WhatsApp</h4>
-                      <p className="text-blue-100">(11) 99999-9999</p>
+                      <p className="text-blue-100">(86) 99976-5214</p>
                     </div>
                   </div>
 
@@ -173,7 +173,7 @@ export default function ContactFormSection() {
                     </div>
                     <div>
                       <h4 className="font-semibold">E-mail</h4>
-                      <p className="text-blue-100">contato@advogadosisbajud.com</p>
+                      <p className="text-blue-100">silvaadvitalo@gmail.com</p>
                     </div>
                   </div>
 
@@ -183,17 +183,14 @@ export default function ContactFormSection() {
                     </div>
                     <div>
                       <h4 className="font-semibold">Horário de Atendimento</h4>
-                      <p className="text-blue-100">24h por dia, 7 dias por semana</p>
+                      <p className="text-blue-100">Segunda à sexta, 8h às 18h</p>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-yellow-400/20 rounded-lg p-4 mt-6">
                   <p className="text-center font-semibold text-yellow-300">
-                    ⚡ Retorno garantido em até 30 minutos
-                  </p>
-                  <p className="text-center text-sm text-blue-100 mt-1">
-                    Primeira consulta sempre gratuita
+                    ⚡Tire suas dúvidas agora!
                   </p>
                 </div>
               </div>
@@ -206,19 +203,19 @@ export default function ContactFormSection() {
                 <ul className="space-y-3 text-sm">
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-success rounded-full"></div>
-                    <span>Análise inicial gratuita do caso</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-success rounded-full"></div>
                     <span>Acompanhamento durante todo o processo</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-success rounded-full"></div>
-                    <span>Parcelamento dos honorários sem juros</span>
+                    <span>Atendimento personalizado</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-success rounded-full"></div>
-                    <span>Transparência total nos custos</span>
+                    <span>Serviço especializado</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-success rounded-full"></div>
+                    <span>Acompanhamento até a liberação</span>
                   </li>
                 </ul>
               </div>

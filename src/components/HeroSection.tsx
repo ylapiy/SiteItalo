@@ -4,8 +4,7 @@ import heroImage from "@/assets/hero-image.jpg";
 
 export default function HeroSection() {
   const handleWhatsAppClick = () => {
-    const message = encodeURIComponent("Olá! Preciso de ajuda para desbloquear minha conta bancária pelo SISBAJUD.");
-    window.open(`https://wa.me/5511999999999?text=${message}`, '_blank');
+    window.open('https://api.whatsapp.com/send/?phone=5586999765214&text=Ol%C3%A1%21+Tive+minha+conta+banc%C3%A1ria+bloqueada+e+gostaria+de+saber+como+prosseguir.&type=phone_number&app_absent=0', '_blank');
   };
 
   return (
@@ -30,9 +29,10 @@ export default function HeroSection() {
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                 Conta bloqueada pelo 
                 <span className="text-yellow-400 block">SISBAJUD?</span>
+                <span className="text-3xl md:text-4xl block mt-2">Saiba o motivo e como recuperar!</span>
               </h1>
               <p className="text-xl md:text-2xl text-blue-100">
-                Recupere seu acesso de forma <strong>rápida e segura</strong>
+                Atendimento em todo o Brasil com <strong>respostas rápidas</strong>
               </p>
             </div>
 
@@ -42,7 +42,7 @@ export default function HeroSection() {
                 ⚖️ Atendimento rápido em todo o Brasil
               </p>
               <p className="text-blue-200 mt-2">
-                Já ajudamos <strong>centenas de clientes</strong> a liberar suas contas bancárias
+                Com um advogado competente, você pode <strong>recuperar o seu dinheiro!</strong>
               </p>
             </div>
 
@@ -80,10 +80,10 @@ export default function HeroSection() {
                 size="lg" 
                 className="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white font-bold py-6 px-12 text-xl shadow-cta transition-all duration-300 transform hover:scale-105"
               >
-                📱 Fale Agora com um Advogado Especialista
+                🔓 Quero falar com um advogado
               </Button>
               <p className="text-sm text-blue-200">
-                💬 Retorno garantido em até 30 minutos
+                💬 Respondemos rapidamente
               </p>
             </div>
           </div>

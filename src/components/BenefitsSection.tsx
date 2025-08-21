@@ -3,9 +3,9 @@ import { Clock, MapPin, CreditCard, Shield, CheckCircle, Users } from "lucide-re
 const benefits = [
   {
     icon: Clock,
-    title: "Atendimento Rápido",
-    description: "Resposta em até 30 minutos, 24h por dia",
-    highlight: "Urgência garantida"
+    title: "Atendimento humanizado",
+    description: "Determinarmos a solução personalizada com base em cada caso",
+    highlight: "Solução personalizada"
   },
   {
     icon: MapPin,
@@ -14,22 +14,10 @@ const benefits = [
     highlight: "Sem limitações geográficas"
   },
   {
-    icon: CreditCard,
-    title: "Honorários Acessíveis",
-    description: "Parcelamento facilitado e sem juros",
-    highlight: "Condições especiais"
-  },
-  {
     icon: Shield,
-    title: "Experiência Comprovada",
-    description: "Especialistas em Direito Bancário",
-    highlight: "Anos de expertise"
-  },
-  {
-    icon: CheckCircle,
-    title: "Alta Taxa de Sucesso",
-    description: "95% de êxito nos casos atendidos",
-    highlight: "Resultados garantidos"
+    title: "Por equipe capacitada",
+    description: "Especializada em Direito bancário",
+    highlight: "Conhecimento agregado"
   },
   {
     icon: Users,
@@ -48,7 +36,7 @@ export default function BenefitsSection() {
             Por que escolher nossos serviços?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Oferecemos o melhor atendimento jurídico especializado em desbloqueio de contas bancárias
+            Oferecemos um atendimento jurídico especializado em desbloqueio de contas e outras questões bancárias
           </p>
         </div>
 
