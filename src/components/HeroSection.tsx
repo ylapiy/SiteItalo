@@ -61,7 +61,7 @@ export default function HeroSection() {
                 <Phone className="h-8 w-8 text-blue-300 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-sm">Atendimento</p>
-                  <p className="text-blue-300 font-bold">Simplificado</p>
+                  <p className="text-blue-300 font-bold">Descomplicado</p>
                 </div>
               </div>
             </div>
