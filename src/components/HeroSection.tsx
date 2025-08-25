@@ -1,21 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Clock } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
-
 export default function HeroSection() {
   const handleWhatsAppClick = () => {
     window.open('https://api.whatsapp.com/send/?phone=5586999765214&text=Ol%C3%A1%21+Tive+minha+conta+banc%C3%A1ria+bloqueada+e+gostaria+de+saber+como+prosseguir.&type=phone_number&app_absent=0', '_blank');
   };
-
-  return (
-    <section className="relative min-h-screen bg-gradient-hero text-primary-foreground overflow-hidden">
+  return <section className="relative min-h-screen bg-gradient-hero text-primary-foreground overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img 
-          src={heroImage} 
-          alt="Advogado especialista em SISBAJUD" 
-          className="w-full h-full object-cover opacity-20"
-        />
+        <img src={heroImage} alt="Advogado especialista em SISBAJUD" className="w-full h-full object-cover opacity-20" />
         <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
       </div>
       
@@ -67,19 +60,15 @@ export default function HeroSection() {
               <div className="flex items-center gap-3 bg-white/10 rounded-lg p-4 backdrop-blur-sm">
                 <Phone className="h-8 w-8 text-blue-300 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-sm">Parcelamento</p>
-                  <p className="text-blue-300 font-bold">Facilitado</p>
+                  <p className="font-semibold text-sm">Atendimento</p>
+                  <p className="text-blue-300 font-bold">Simplificado</p>
                 </div>
               </div>
             </div>
 
             {/* CTA Principal */}
             <div className="space-y-4">
-              <Button 
-                onClick={handleWhatsAppClick}
-                size="lg" 
-                className="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white font-bold py-6 px-12 text-xl shadow-cta transition-all duration-300 transform hover:scale-105"
-              >
+              <Button onClick={handleWhatsAppClick} size="lg" className="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white font-bold py-6 px-12 text-xl shadow-cta transition-all duration-300 transform hover:scale-105">
                 🔓 Quero falar com um advogado
               </Button>
               <p className="text-sm text-blue-200">
@@ -90,23 +79,7 @@ export default function HeroSection() {
 
           {/* Right Column - Expertise */}
           <div className="hidden lg:block">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-              <h3 className="text-2xl font-bold mb-6 text-center">Nossa Expertise</h3>
-              <div className="space-y-6">
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-yellow-400">Direito Bancário</div>
-                  <div className="text-blue-200">Especialização em conflitos bancários</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-green-400">Todo Brasil</div>
-                  <div className="text-blue-200">Atuação nacional</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-blue-300">OAB/PI</div>
-                  <div className="text-blue-200">Registro ativo 25.603</div>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -117,6 +90,5 @@ export default function HeroSection() {
           <div className="w-1 h-3 bg-white/70 rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 }
