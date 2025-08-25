@@ -1,12 +1,9 @@
 import { Scale, MapPin, Phone, Mail, Shield } from "lucide-react";
-
 export default function FooterSection() {
   const handleWhatsAppClick = () => {
     window.open('https://api.whatsapp.com/send/?phone=5586999765214&text=Ol%C3%A1%21+Tive+minha+conta+banc%C3%A1ria+bloqueada+e+gostaria+de+saber+como+prosseguir.&type=phone_number&app_absent=0', '_blank');
   };
-
-  return (
-    <footer className="bg-primary text-primary-foreground">
+  return <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 py-16">
         <div className="grid lg:grid-cols-4 gap-8">
           {/* Logo e Descrição */}
@@ -49,7 +46,7 @@ export default function FooterSection() {
               <li>• Renegociação de dívidas bancárias empresariais</li>
               <li>• Revisão de cartão de crédito e cheque especial</li>
               <li>• Revisional de Contratos</li>
-              <li>• Dentre outros...</li>
+              <li>• Dentre outros.</li>
             </ul>
           </div>
 
@@ -82,10 +79,7 @@ export default function FooterSection() {
               </div>
             </div>
 
-            <button 
-              onClick={handleWhatsAppClick}
-              className="w-full mt-6 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-4 rounded-lg transition-colors duration-300"
-            >
+            <button onClick={handleWhatsAppClick} className="w-full mt-6 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-4 rounded-lg transition-colors duration-300">
               🔓 Quero falar com um advogado
             </button>
           </div>
@@ -105,26 +99,18 @@ export default function FooterSection() {
           </div>
 
           <div className="md:text-right">
-            <p className="text-blue-200 text-sm">
-              © 2024 Italo Bezerra Advocacia. Todos os direitos reservados.
-            </p>
-            <p className="text-blue-300 text-xs mt-1">
-              Desenvolvido para resultados • Especialistas desde 2015
-            </p>
+            <p className="text-blue-200 text-sm">© 2025 Italo Bezerra Advocacia. Todos os direitos reservados.</p>
+            <p className="text-blue-300 text-xs mt-1">Desenvolvido para resultados •</p>
           </div>
         </div>
 
-        {/* Aviso Legal - Conformidade OAB */}
+        {/* Aviso Legal */}
         <div className="bg-white/5 rounded-lg p-4 mt-8 border border-white/10">
-          <p className="text-xs text-blue-200 text-center leading-relaxed">
-            <strong>Aviso Legal:</strong> Este site tem caráter meramente informativo e não capta clientes. 
-            A consulta jurídica é indispensável para a análise de cada caso concreto. 
-            O resultado depende das circunstâncias do caso. Não garantimos resultado específico. 
-            <br className="my-1" />
-            Em conformidade com o Provimento nº 205/2021 do Conselho Federal da OAB.
+          <p className="text-xs text-blue-200 text-center">
+            <strong>Aviso Legal:</strong> Este site tem caráter informativo. 
+            O resultado depende das circunstâncias do caso. Não garantimos resultado específico.
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 }
