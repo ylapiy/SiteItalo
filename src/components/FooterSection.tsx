@@ -114,11 +114,14 @@ export default function FooterSection() {
           </div>
         </div>
 
-        {/* Aviso Legal */}
+        {/* Aviso Legal - Conformidade OAB */}
         <div className="bg-white/5 rounded-lg p-4 mt-8 border border-white/10">
-          <p className="text-xs text-blue-200 text-center">
-            <strong>Aviso Legal:</strong> Este site tem caráter informativo. 
-            O resultado depende das circunstâncias do caso. Não garantimos resultado específico.
+          <p className="text-xs text-blue-200 text-center leading-relaxed">
+            <strong>Aviso Legal:</strong> Este site tem caráter meramente informativo e não capta clientes. 
+            A consulta jurídica é indispensável para a análise de cada caso concreto. 
+            O resultado depende das circunstâncias do caso. Não garantimos resultado específico. 
+            <br className="my-1" />
+            Em conformidade com o Provimento nº 205/2021 do Conselho Federal da OAB.
           </p>
         </div>
       </div>

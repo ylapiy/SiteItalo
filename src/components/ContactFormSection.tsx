@@ -38,7 +38,7 @@ export default function ContactFormSection() {
     // Simular envio - em produção, aqui seria feita a integração com backend
     toast({
       title: "Mensagem enviada!",
-      description: "Entraremos em contato em até 30 minutos.",
+      description: "Entraremos em contato em breve.",
     });
 
     // Limpar formulário
@@ -190,7 +190,7 @@ export default function ContactFormSection() {
 
                 <div className="bg-yellow-400/20 rounded-lg p-4 mt-6">
                   <p className="text-center font-semibold text-yellow-300">
-                    ⚡Tire suas dúvidas agora!
+                    ⚡ Análise inicial do seu caso
                   </p>
                 </div>
               </div>

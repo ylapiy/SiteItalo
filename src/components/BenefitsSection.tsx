@@ -2,10 +2,10 @@ import { Clock, MapPin, CreditCard, Shield, CheckCircle, Users } from "lucide-re
 
 const benefits = [
   {
-    icon: Clock,
-    title: "Atendimento humanizado",
-    description: "Determinarmos a solução personalizada com base em cada caso",
-    highlight: "Solução personalizada"
+    icon: Shield,
+    title: "Assessoria Jurídica Especializada",
+    description: "Atuação focada em direito bancário e do consumidor",
+    highlight: "Expertise específica"
   },
   {
     icon: MapPin,
@@ -14,16 +14,16 @@ const benefits = [
     highlight: "Sem limitações geográficas"
   },
   {
-    icon: Shield,
-    title: "Por equipe capacitada",
-    description: "Especializada em Direito bancário",
-    highlight: "Conhecimento agregado"
+    icon: Clock,
+    title: "Atendimento Profissional",
+    description: "Análise personalizada de cada caso",
+    highlight: "Atenção dedicada"
   },
   {
     icon: Users,
-    title: "Suporte Personalizado",
+    title: "Acompanhamento Processual",
     description: "Acompanhamento durante todo o processo",
-    highlight: "Atenção individual"
+    highlight: "Transparência total"
   }
 ];
 

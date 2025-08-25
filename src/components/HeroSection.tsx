@@ -26,23 +26,23 @@ export default function HeroSection() {
           <div className="space-y-8">
             {/* Headline */}
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                Conta bloqueada pelo 
-                <span className="text-yellow-400 block">SISBAJUD?</span>
-                <span className="text-3xl md:text-4xl block mt-2">Saiba o motivo e como recuperar!</span>
-              </h1>
-              <p className="text-xl md:text-2xl text-blue-100">
-                Atendimento em todo o Brasil com <strong>respostas rápidas</strong>
-              </p>
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+              Conta bloqueada pelo 
+              <span className="text-yellow-400 block">SISBAJUD?</span>
+              <span className="text-3xl md:text-4xl block mt-2">Entenda o bloqueio e as possibilidades jurídicas</span>
+            </h1>
+            <p className="text-xl md:text-2xl text-blue-100">
+              Assessoria jurídica especializada em todo o Brasil
+            </p>
             </div>
 
             {/* Subtítulo com autoridade */}
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
               <p className="text-lg font-medium text-blue-100">
-                ⚖️ Atendimento rápido em todo o Brasil
+                ⚖️ Advocacia especializada em direito bancário
               </p>
               <p className="text-blue-200 mt-2">
-                Com um advogado competente, você pode <strong>recuperar o seu dinheiro!</strong>
+                Assessoria jurídica para <strong>buscar a liberação dos seus recursos</strong>
               </p>
             </div>
 
@@ -51,8 +51,8 @@ export default function HeroSection() {
               <div className="flex items-center gap-3 bg-white/10 rounded-lg p-4 backdrop-blur-sm">
                 <Clock className="h-8 w-8 text-yellow-400 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-sm">Resposta em</p>
-                  <p className="text-yellow-400 font-bold">30 minutos</p>
+                  <p className="font-semibold text-sm">Pronto</p>
+                  <p className="text-yellow-400 font-bold">Atendimento</p>
                 </div>
               </div>
               
@@ -83,27 +83,27 @@ export default function HeroSection() {
                 🔓 Quero falar com um advogado
               </Button>
               <p className="text-sm text-blue-200">
-                💬 Respondemos rapidamente
+                💬 Análise inicial do seu caso
               </p>
             </div>
           </div>
 
-          {/* Right Column - Stats/Trust */}
+          {/* Right Column - Expertise */}
           <div className="hidden lg:block">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-              <h3 className="text-2xl font-bold mb-6 text-center">Nossos Resultados</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center">Nossa Expertise</h3>
               <div className="space-y-6">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-yellow-400">95%</div>
-                  <div className="text-blue-200">Taxa de sucesso</div>
+                  <div className="text-2xl font-bold text-yellow-400">Direito Bancário</div>
+                  <div className="text-blue-200">Especialização em conflitos bancários</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-green-400">5 dias</div>
-                  <div className="text-blue-200">Tempo médio de liberação</div>
+                  <div className="text-2xl font-bold text-green-400">Todo Brasil</div>
+                  <div className="text-blue-200">Atuação nacional</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-blue-300">500+</div>
-                  <div className="text-blue-200">Clientes atendidos</div>
+                  <div className="text-2xl font-bold text-blue-300">OAB/PI</div>
+                  <div className="text-blue-200">Registro ativo 25.603</div>
                 </div>
               </div>
             </div>

@@ -28,15 +28,15 @@ export default function SocialProofSection() {
 
         <div className="text-center mb-16">
           <div className="bg-card p-8 rounded-lg shadow-card border border-border max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-primary mb-6">Conheça mais do meu trabalho</h3>
+            <h3 className="text-2xl font-bold text-primary mb-6">Sobre o Advogado</h3>
             <p className="text-foreground leading-relaxed mb-6">
-              Profissional recém-formado, com perfil organizado, disciplinado e comprometido com prazos e metas. 
-              Possui domínio de sistemas de gestão processual eletrônica e facilidade em lidar com grandes volumes 
-              de informação de forma estruturada. Destaca-se pela escrita técnica clara e fundamentada, pela 
-              capacidade analítica apurada e pela habilidade na elaboração de resumos e sínteses de documentos.
+              Advogado inscrito na OAB/PI sob nº 25.603, com formação jurídica e atuação especializada em 
+              direito bancário e do consumidor. Experiência em sistemas processuais eletrônicos e elaboração 
+              de peças técnicas fundamentadas. Atendimento focado na análise detalhada de cada caso e na 
+              busca pela melhor estratégia jurídica para cada situação.
             </p>
             <a href="https://www.instagram.com/adv.italo.bezerra/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">
-              📱 Siga no Instagram e aprenda seus direitos
+              📱 Conteúdo educativo sobre seus direitos
             </a>
           </div>
         </div>
