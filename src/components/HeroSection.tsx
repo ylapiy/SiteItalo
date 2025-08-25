@@ -7,11 +7,7 @@ export default function HeroSection() {
   return <section className="relative min-h-screen bg-gradient-hero text-primary-foreground overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img 
-          src="/lovable-uploads/bc4f4b76-f45c-4750-ba91-5d1a4fb60d86.png" 
-          alt="Banco lotado - Pessoas enfrentando problemas bancários" 
-          className="w-full h-full object-cover opacity-30" 
-        />
+        <img src="/lovable-uploads/bc4f4b76-f45c-4750-ba91-5d1a4fb60d86.png" alt="Banco lotado - Pessoas enfrentando problemas bancários" className="w-full h-full object-cover opacity-30" />
         <div className="absolute inset-0 bg-gradient-hero opacity-85"></div>
       </div>
       
@@ -47,8 +43,8 @@ export default function HeroSection() {
               <div className="flex items-center gap-2 md:gap-3 bg-white/10 rounded-lg p-3 md:p-4 backdrop-blur-sm">
                 <Clock className="h-6 w-6 md:h-8 md:w-8 text-yellow-400 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-xs md:text-sm">Resposta em</p>
-                  <p className="text-yellow-400 font-bold text-sm md:text-base">30 minutos</p>
+                  <p className="font-semibold text-xs md:text-sm">Atendimento</p>
+                  <p className="text-yellow-400 font-bold text-sm md:text-base">Rápido</p>
                 </div>
               </div>
               
@@ -71,11 +67,7 @@ export default function HeroSection() {
 
             {/* CTA Principal */}
             <div className="space-y-3 md:space-y-4">
-              <Button 
-                onClick={handleWhatsAppClick} 
-                size="lg" 
-                className="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white font-bold py-4 md:py-6 px-8 md:px-12 text-lg md:text-xl shadow-cta transition-all duration-300 transform hover:scale-105"
-              >
+              <Button onClick={handleWhatsAppClick} size="lg" className="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white font-bold py-4 md:py-6 px-8 md:px-12 text-lg md:text-xl shadow-cta transition-all duration-300 transform hover:scale-105">
                 🔓 Quero falar com um advogado
               </Button>
               <p className="text-xs md:text-sm text-blue-200">
