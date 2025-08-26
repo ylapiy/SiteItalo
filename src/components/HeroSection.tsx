@@ -53,8 +53,8 @@ export default function HeroSection() {
               <div className="flex items-center gap-3 bg-white/10 rounded-lg p-4 backdrop-blur-sm">
                 <Shield className="h-8 w-8 text-green-400 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-sm">Todo o</p>
-                  <p className="text-green-400 font-bold">Brasil</p>
+                  <p className="font-semibold text-sm">Atendimento</p>
+                  <p className="text-green-400 font-bold">Seguro</p>
                 </div>
               </div>
               
