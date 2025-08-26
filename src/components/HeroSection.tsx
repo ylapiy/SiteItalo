@@ -13,9 +13,8 @@ export default function HeroSection() {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 xl:px-12 py-12 lg:py-20">
-        <div className="max-w-none w-full">
-          <div className="grid grid-cols-1 gap-8 items-center min-h-[70vh] lg:min-h-[80vh]">
+      <div className="relative z-10 container mx-auto px-4 py-20">
+        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
           {/* Left Column */}
           <div className="space-y-8">
             {/* Headline */}
@@ -53,8 +52,8 @@ export default function HeroSection() {
               <div className="flex items-center gap-3 bg-white/10 rounded-lg p-4 backdrop-blur-sm">
                 <Shield className="h-8 w-8 text-green-400 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-sm">Atendimento</p>
-                  <p className="text-green-400 font-bold">Seguro</p>
+                  <p className="font-semibold text-sm">Todo o</p>
+                  <p className="text-green-400 font-bold">Serviço</p>
                 </div>
               </div>
               
@@ -81,7 +80,6 @@ export default function HeroSection() {
           {/* Right Column - Expertise */}
           <div className="hidden lg:block">
             
-          </div>
           </div>
         </div>
       </div>
