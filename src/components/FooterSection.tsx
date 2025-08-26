@@ -79,9 +79,7 @@ export default function FooterSection() {
               </div>
             </div>
 
-            <button onClick={handleWhatsAppClick} className="w-full mt-6 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-4 rounded-lg transition-colors duration-300">
-              🔓 Quero falar com um advogado
-            </button>
+            
           </div>
         </div>
 

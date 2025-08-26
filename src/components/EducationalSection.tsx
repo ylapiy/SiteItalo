@@ -76,7 +76,7 @@ export default function EducationalSection() {
                       Um <strong>advogado para bloqueio judicial</strong> analisa juridicamente o 
                       <strong> bloqueio judicial na conta</strong> e identifica irregularidades ou valores 
                       que não deveriam estar em uma <strong>conta penhorada</strong>. Nossa atuação visa 
-                      <strong>desbloquear conta bancária</strong> através de estratégias jurídicas fundamentadas.
+                      <strong> desbloquear conta bancária</strong> através de estratégias jurídicas fundamentadas.
                     </p>
                     
                     <div className="bg-primary/10 p-4 rounded-lg">
