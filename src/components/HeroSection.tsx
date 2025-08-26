@@ -5,29 +5,11 @@ export default function HeroSection() {
   const handleWhatsAppClick = () => {
     window.open('https://api.whatsapp.com/send/?phone=5586999765214&text=Ol%C3%A1%21+Tive+minha+conta+banc%C3%A1ria+bloqueada+e+gostaria+de+saber+como+prosseguir.&type=phone_number&app_absent=0', '_blank');
   };
-  
   return <section className="relative min-h-screen bg-gradient-hero text-primary-foreground overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img src={heroImage} alt="Advogado especialista em SISBAJUD" className="w-full h-full object-cover opacity-20" />
         <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
-      </div>
-      
-      {/* Law Firm Header */}
-      <div className="relative z-20 w-full px-4 sm:px-6 lg:px-8 xl:px-12 pt-6">
-        <div className="flex items-center justify-center gap-4 bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 max-w-md mx-auto">
-          <div className="w-12 h-12 rounded-lg overflow-hidden bg-gradient-hero p-1">
-            <img 
-              src="/lovable-uploads/8ec08491-3fa2-467e-b7de-ff355e37a886.png" 
-              alt="Italo Bezerra Advocacia Logo" 
-              className="w-full h-full object-contain filter brightness-110"
-            />
-          </div>
-          <div className="text-center">
-            <h2 className="text-lg font-bold text-white">Italo Bezerra</h2>
-            <p className="text-sm text-blue-100">Advocacia</p>
-          </div>
-        </div>
       </div>
       
       {/* Content */}
@@ -71,8 +53,8 @@ export default function HeroSection() {
               <div className="flex items-center gap-3 bg-white/10 rounded-lg p-4 backdrop-blur-sm">
                 <Shield className="h-8 w-8 text-green-400 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-sm">Atendimento</p>
-                  <p className="text-green-400 font-bold">Seguro</p>
+                  <p className="font-semibold text-sm">Todo o</p>
+                  <p className="text-green-400 font-bold">Brasil</p>
                 </div>
               </div>
               
