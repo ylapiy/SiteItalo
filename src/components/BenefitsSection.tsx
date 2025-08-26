@@ -9,13 +9,13 @@ const benefits = [
   },
   {
     icon: MapPin,
-    title: "Atuação Nacional",
-    description: "Atendemos clientes em todo o Brasil",
+    title: "Cobertura Nacional",
+    description: "Atendo clientes em todo o Brasil",
     highlight: "Sem limitações geográficas"
   },
   {
     icon: Clock,
-    title: "Atendimento Profissional",
+    title: "Consultoria Profissional",
     description: "Análise personalizada de cada caso",
     highlight: "Atenção dedicada"
   },
@@ -33,10 +33,10 @@ export default function BenefitsSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary mb-4">
-            Por que escolher nossos serviços?
+            Por que escolher meus serviços?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Oferecemos um atendimento jurídico especializado em desbloqueio de contas e outras questões bancárias
+            Ofereço uma consultoria jurídica especializada em desbloqueio de contas e outras questões bancárias
           </p>
         </div>
 

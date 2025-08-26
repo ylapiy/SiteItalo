@@ -37,10 +37,17 @@ export default function ContactFormSection() {
       return;
     }
 
+    // Criar e-mail para envio
+    const emailData = {
+      to: 'silvaadvitalo@gmail.com',
+      subject: 'Novo contato - SISBAJUD',
+      body: `Nome: ${formData.name}\nTelefone: ${formData.phone}\nE-mail: ${formData.email}\nMensagem: ${formData.message}`
+    };
+
     // Simular envio - em produção, aqui seria feita a integração com backend
     toast({
       title: "Mensagem enviada!",
-      description: "Entraremos em contato em breve."
+      description: "Entrarei em contato em breve."
     });
 
     // Limpar formulário
@@ -60,14 +67,14 @@ export default function ContactFormSection() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-primary mb-4">
-              Entre em contato conosco
+              Precisa de ajuda com o desbloqueio da sua conta? Não perca tempo. Fale agora com um especialista
             </h2>
             <p className="text-xl text-muted-foreground">
-              Preencha o formulário abaixo e receba atendimento personalizado
+              Preencha o formulário abaixo e receba consultoria personalizada
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="max-w-4xl mx-auto">
             {/* Formulário */}
             <div className="bg-card p-8 rounded-xl shadow-card border border-border">
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -107,75 +114,58 @@ export default function ContactFormSection() {
                   * Campos obrigatórios
                 </p>
               </form>
-            </div>
 
-            {/* Informações de Contato */}
-            <div className="space-y-8">
-              <div className="bg-gradient-primary text-primary-foreground p-8 rounded-xl shadow-elegant">
-                <h3 className="text-2xl font-bold mb-6 text-center">
-                  Atendimento Imediato
-                </h3>
+              {/* Informações de contato integradas */}
+              <div className="mt-8 pt-8 border-t border-border">
+                <div className="grid md:grid-cols-3 gap-6 text-center">
+                  <div>
+                    <div className="bg-primary/10 p-3 rounded-full inline-block mb-2">
+                      <Phone className="h-6 w-6 text-primary" />
+                    </div>
+                    <h4 className="font-semibold text-primary">WhatsApp</h4>
+                    <p className="text-muted-foreground">(86) 99976-5214</p>
+                  </div>
+
+                  <div>
+                    <div className="bg-primary/10 p-3 rounded-full inline-block mb-2">
+                      <Mail className="h-6 w-6 text-primary" />
+                    </div>
+                    <h4 className="font-semibold text-primary">E-mail</h4>
+                    <p className="text-muted-foreground">silvaadvitalo@gmail.com</p>
+                  </div>
+
+                  <div>
+                    <div className="bg-primary/10 p-3 rounded-full inline-block mb-2">
+                      <Clock className="h-6 w-6 text-primary" />
+                    </div>
+                    <h4 className="font-semibold text-primary">Horário</h4>
+                    <p className="text-muted-foreground">Segunda à sexta, 8h às 18h</p>
+                  </div>
+                </div>
                 
-                <div className="space-y-6">
-                  <div className="flex items-center gap-4">
-                    <div className="bg-white/20 p-3 rounded-full">
-                      <Phone className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold">WhatsApp</h4>
-                      <p className="text-blue-100">(86) 99976-5214</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-4">
-                    <div className="bg-white/20 p-3 rounded-full">
-                      <Mail className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold">E-mail</h4>
-                      <p className="text-blue-100">silvaadvitalo@gmail.com</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-4">
-                    <div className="bg-white/20 p-3 rounded-full">
-                      <Clock className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold">Horário de Atendimento</h4>
-                      <p className="text-blue-100">Segunda à sexta, 8h às 18h</p>
+                <div className="mt-8 text-center">
+                  <div className="bg-gradient-primary text-primary-foreground p-6 rounded-lg">
+                    <h4 className="text-xl font-bold mb-4">Diferenciais do Meu Trabalho</h4>
+                    <div className="grid md:grid-cols-2 gap-4 text-sm">
+                      <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                        <span>Acompanhamento durante todo o processo</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                        <span>Consultoria personalizada</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                        <span>Especialização em direito bancário</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                        <span>Suporte até a resolução</span>
+                      </div>
                     </div>
                   </div>
                 </div>
-
-                <div className="bg-yellow-400/20 rounded-lg p-4 mt-6">
-                  <p className="text-center font-semibold text-yellow-300">Análise inicial do seu caso</p>
-                </div>
-              </div>
-
-              {/* Garantias */}
-              <div className="bg-card p-6 rounded-xl shadow-card border border-border">
-                <h4 className="text-xl font-bold text-primary mb-4 text-center">
-                  Nossas Garantias
-                </h4>
-                <ul className="space-y-3 text-sm">
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-success rounded-full"></div>
-                    <span>Acompanhamento durante todo o processo</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-success rounded-full"></div>
-                    <span>Atendimento personalizado</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-success rounded-full"></div>
-                    <span>Serviço especializado</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-success rounded-full"></div>
-                    <span>Acompanhamento até a liberação</span>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
