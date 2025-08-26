@@ -1,14 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Clock } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
-
 export default function HeroSection() {
   const handleWhatsAppClick = () => {
     window.open('https://api.whatsapp.com/send/?phone=5586999765214&text=Ol%C3%A1%21+Tive+minha+conta+banc%C3%A1ria+bloqueada+e+gostaria+de+saber+como+prosseguir.&type=phone_number&app_absent=0', '_blank');
   };
-
-  return (
-    <>
+  return <>
       {/* Header com nome do escritório */}
       <header className="bg-gradient-hero text-primary-foreground py-4">
         <div className="container mx-auto px-4">
@@ -74,7 +71,7 @@ export default function HeroSection() {
                 <div className="flex items-center gap-3 bg-white/10 rounded-lg p-4 backdrop-blur-sm">
                   <Phone className="h-8 w-8 text-blue-300 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-sm">💬 Suporte</p>
+                    <p className="font-semibold text-sm">Suporte</p>
                     <p className="text-blue-300 font-bold">Personalizado</p>
                   </div>
                 </div>
@@ -85,9 +82,7 @@ export default function HeroSection() {
                 <Button onClick={handleWhatsAppClick} size="lg" className="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white font-bold py-6 px-12 text-xl shadow-cta transition-all duration-300 transform hover:scale-105">
                   🔓 💬 Suporte Personalizado
                 </Button>
-                <Button onClick={handleWhatsAppClick} size="lg" className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white font-bold py-6 px-12 text-xl shadow-cta transition-all duration-300 transform hover:scale-105 mt-4">
-                  💬 Tire suas dúvidas
-                </Button>
+                
               </div>
             </div>
 
@@ -106,6 +101,5 @@ export default function HeroSection() {
           </div>
         </div>
       </section>
-    </>
-  );
+    </>;
 }
