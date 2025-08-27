@@ -35,9 +35,7 @@ export default function HeroSection() {
                 <span className="text-yellow-400 block">SISBAJUD?</span>
                 <span className="text-3xl md:text-4xl block mt-2">Entenda o bloqueio e as possibilidades jurídicas</span>
               </h2>
-              <p className="text-xl md:text-2xl text-blue-100">
-                Assessoria jurídica especializada em todo o Brasil
-              </p>
+              <p className="text-xl md:text-2xl text-blue-100">Assessoria jurídica especializada em Direito Bancário e do Consumidor</p>
               </div>
 
               {/* Subtítulo com autoridade */}
