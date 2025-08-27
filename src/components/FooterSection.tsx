@@ -1,4 +1,4 @@
-import { Scale, MapPin, Phone, Mail, Shield } from "lucide-react";
+import { Scale, MapPin, Mail, Shield, MessageCircle } from "lucide-react";
 export default function FooterSection() {
   const handleWhatsAppClick = () => {
     window.open('https://api.whatsapp.com/send/?phone=5586999765214&text=Ol%C3%A1%21+Tive+minha+conta+banc%C3%A1ria+bloqueada+e+gostaria+de+saber+como+prosseguir.&type=phone_number&app_absent=0', '_blank');
@@ -54,13 +54,13 @@ export default function FooterSection() {
           <div>
             <h4 className="text-xl font-bold mb-6">Contato</h4>
             <div className="space-y-4">
-              <div className="flex items-start gap-3">
-                <Phone className="h-5 w-5 text-green-400 mt-1 flex-shrink-0" />
-                <div>
-                  <p className="text-blue-100">(86) 99976-5214</p>
-                  <p className="text-sm text-blue-200">Atendimento em horário comercial</p>
-                </div>
-              </div>
+              <button
+                onClick={handleWhatsAppClick}
+                className="flex items-center gap-3 w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-4 rounded-lg transition-colors"
+              >
+                <MessageCircle className="h-5 w-5" />
+                <span>WhatsApp</span>
+              </button>
 
               <div className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-blue-400 mt-1 flex-shrink-0" />
