@@ -18,11 +18,7 @@ export default function FooterSection() {
               </div>
             </div>
             
-            <p className="text-blue-100 leading-relaxed mb-6">
-              Escritório especializado em conflitos bancários e demandas com o consumidor. 
-              Atuamos em todo território nacional com foco em resultados rápidos e eficientes 
-              para nossos clientes.
-            </p>
+            <p className="text-blue-100 leading-relaxed mb-6">Escritório especializado em conflitos bancários e demandas com o consumidor. Atuo em todo território nacional com foco em resultados rápidos e eficientes para meus clientes.</p>
 
             {/* Selo OAB */}
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
