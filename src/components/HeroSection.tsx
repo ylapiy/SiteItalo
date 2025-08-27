@@ -30,10 +30,9 @@ export default function HeroSection() {
             <div className="space-y-8">
               {/* Headline */}
               <div className="space-y-4">
-              <h2 className="text-4xl md:text-6xl font-bold leading-tight">
-                Conta bloqueada pelo 
-                <span className="text-yellow-400 block">SISBAJUD?</span>
-                <span className="text-3xl md:text-4xl block mt-2">Entenda o bloqueio e as possibilidades jurídicas</span>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
+                Conta bloqueada pelo <span className="text-yellow-400">SISBAJUD?</span>
+                <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl block mt-2">Entenda o bloqueio e as possibilidades jurídicas</span>
               </h2>
               <p className="text-xl md:text-2xl text-blue-100">Assessoria jurídica especializada em Direito Bancário e do Consumidor</p>
               </div>
