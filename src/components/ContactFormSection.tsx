@@ -67,9 +67,9 @@ export default function ContactFormSection() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             
-            <p className="text-xl text-muted-foreground">
+            <h2 className="text-3xl font-bold text-primary mb-6">
               Preencha o formulário abaixo e receba consultoria personalizada
-            </p>
+            </h2>
           </div>
 
           <div className="max-w-4xl mx-auto">
