@@ -54,7 +54,7 @@ export default function FooterSection() {
           <div className="flex justify-center">
             <button
               onClick={handleWhatsAppClick}
-              className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors duration-300 shadow-lg hover:shadow-xl"
+              className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-6 rounded-md text-base transition-colors duration-300 shadow-md hover:shadow-lg"
             >
               💬 Quero falar com um advogado!
             </button>
