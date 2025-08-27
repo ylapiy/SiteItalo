@@ -78,7 +78,7 @@ export default function HeroSection() {
               {/* CTA Principal */}
               <div className="space-y-4">
                 <Button onClick={handleWhatsAppClick} size="lg" className="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white font-bold py-6 px-12 text-xl shadow-cta transition-all duration-300 transform hover:scale-105">
-                  🔓 💬 Suporte Personalizado
+                  Quero falar com um advogado!
                 </Button>
                 
               </div>
