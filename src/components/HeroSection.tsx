@@ -69,8 +69,8 @@ export default function HeroSection() {
                 <div className="flex items-center gap-3 bg-white/10 rounded-lg p-4 backdrop-blur-sm">
                   <Phone className="h-8 w-8 text-blue-300 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-sm">Suporte</p>
-                    <p className="text-blue-300 font-bold">Personalizado</p>
+                    <p className="font-semibold text-sm">Acompanhamento</p>
+                    <p className="text-blue-300 font-bold">Especializado</p>
                   </div>
                 </div>
               </div>
