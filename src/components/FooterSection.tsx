@@ -50,8 +50,35 @@ export default function FooterSection() {
             </ul>
           </div>
 
-          {/* Botão de Atendimento */}
-          <div className="flex justify-center">
+          {/* Contato */}
+          <div>
+            <h4 className="text-xl font-bold mb-6">Contato</h4>
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <Phone className="h-5 w-5 text-green-400 mt-1 flex-shrink-0" />
+                <div>
+                  <p className="text-blue-100">(86) 99976-5214</p>
+                  <p className="text-sm text-blue-200">Atendimento em horário comercial</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <Mail className="h-5 w-5 text-blue-400 mt-1 flex-shrink-0" />
+                <div>
+                  <p className="text-blue-100">silvaadvitalo@gmail.com</p>
+                  <p className="text-sm text-blue-200">E-mail principal</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <MapPin className="h-5 w-5 text-yellow-400 mt-1 flex-shrink-0" />
+                <div>
+                  <p className="text-blue-100">Atendimento Online</p>
+                  <p className="text-sm text-blue-200">Todo o Brasil</p>
+                </div>
+              </div>
+            </div>
+
             
           </div>
         </div>
