@@ -52,12 +52,7 @@ export default function FooterSection() {
 
           {/* Botão de Atendimento */}
           <div className="flex justify-center">
-            <button
-              onClick={handleWhatsAppClick}
-              className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors duration-300 shadow-lg hover:shadow-xl"
-            >
-              💬 Quero falar com um advogado!
-            </button>
+            
           </div>
         </div>
 
