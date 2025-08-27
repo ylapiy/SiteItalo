@@ -14,7 +14,7 @@ export default function FooterSection() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold">Italo Bezerra Advocacia</h3>
-                <p className="text-blue-200 text-sm">Especialistas em Direito Bancário</p>
+                <p className="text-blue-200 text-sm">Especialista em Direito Bancário</p>
               </div>
             </div>
             
@@ -54,10 +54,7 @@ export default function FooterSection() {
           <div>
             <h4 className="text-xl font-bold mb-6">Contato</h4>
             <div className="space-y-4">
-              <button
-                onClick={handleWhatsAppClick}
-                className="flex items-center gap-3 w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-4 rounded-lg transition-colors"
-              >
+              <button onClick={handleWhatsAppClick} className="flex items-center gap-3 w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-4 rounded-lg transition-colors">
                 <MessageCircle className="h-5 w-5" />
                 <span>WhatsApp</span>
               </button>
