@@ -67,9 +67,9 @@ export default function ContactFormSection() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             
-            <h2 className="text-3xl font-bold text-primary mb-6">
+            <p className="text-xl text-muted-foreground">
               Preencha o formulário abaixo e receba consultoria personalizada
-            </h2>
+            </p>
           </div>
 
           <div className="max-w-4xl mx-auto">
@@ -155,7 +155,7 @@ export default function ContactFormSection() {
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
-                        <span>Especialização em direito bancário</span>
+                        <span>Especialização em direito bancário/consumidor</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
