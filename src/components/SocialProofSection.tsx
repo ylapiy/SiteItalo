@@ -43,7 +43,7 @@ export default function SocialProofSection() {
                   e demais questões relacionadas ao sistema financeiro nacional.
                 </p>
                 <a href="https://www.instagram.com/adv.italo.bezerra/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">
-                  📱 Conteúdo educativo sobre seus direitos
+                  Aprenda mais sobre seus direitos
                 </a>
               </div>
               <div className="order-1 lg:order-2 flex justify-center">
