@@ -1,12 +1,17 @@
 import "./App.css";
+import icon from "./Imagens/icon.png";
 import Contatos from "./componentes/buttons";
-import DivCarrosel from "./componentes/Divs";
+import TextoSobreMim, { DivCarrosel } from "./componentes/MenuInicial";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <DivCarrosel></DivCarrosel>
+        <div className="DivIncio">
+          <TextoSobreMim></TextoSobreMim>
+          <DivCarrosel></DivCarrosel>
+          <img src={icon} className={`IconePrincipal`} alt={""} />
+        </div>
 
         <div className="DivContatos">
           <Contatos
