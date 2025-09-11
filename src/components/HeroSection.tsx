@@ -4,23 +4,23 @@ import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import carousel1 from "@/assets/hero-image.jpg";
 import carousel2 from "@/assets/hero-image.jpg";
 import carousel3 from "@/assets/hero-image.jpg";
-import Icone from "@/assets/ficon-removebg-preview.png"
+import Icone from "@/assets/81235b92-7f40-412e-bb08-7e36e4759ab0-removebg-preview.png"
 import Beneficios from "./BenefitsSection.tsx"
 
 const carouselData = [
   {
     image: carousel1,
-    title: "Italo Bezerra Advocacia & Consultoria",
+    image2: Icone ,
     subtitle: "Advogado especialista em SISBAJUD"
   },
   {
     image: carousel2,
-    title: "Italo Bezerra Advocacia & Consultoria ",
+    image2:  Icone,
     subtitle: "Ajudando a entender o bloqueio e as possibilidades jurídicas"
   },
   {
     image: carousel3,
-    title: "Italo Bezerra Advocacia & Consultoria ",
+    image2:  Icone,
     subtitle: "Assessoria jurídica especializada em Direito Bancário e do Consumidor"
   }
 ];
@@ -91,9 +91,13 @@ const HeroCarousel = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent transition-all duration-700">
-          {carouselData[currentSlide].title}
-        </h1>
+       <img
+  src={carouselData[currentSlide].image2}
+  alt="slide"
+  className="w-[50px] md:w-[400px] mb-8 mx-auto"
+/>
+
+
         <p className="text-xl md:text-2xl text-foreground/80 mb-8 max-w-2xl mx-auto transition-all duration-700">
           {carouselData[currentSlide].subtitle}
         </p>
