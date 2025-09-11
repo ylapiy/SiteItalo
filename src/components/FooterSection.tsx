@@ -33,18 +33,6 @@ export default function FooterSection() {
           </div>
 
           {/* Links Úteis */}
-          <div>
-            <h4 className="text-xl font-bold mb-6">Áreas de Atuação</h4>
-            <ul className="space-y-3 text-blue-100">
-              <li>• Desbloqueio SISBAJUD</li>
-              <li>• Indenização por negativação indevida</li>
-              <li>• Revisão de financiamento de veículo</li>
-              <li>• Renegociação de dívidas bancárias empresariais</li>
-              <li>• Revisão de cartão de crédito e cheque especial</li>
-              <li>• Revisional de Contratos</li>
-              <li>• Dentre outros.</li>
-            </ul>
-          </div>
 
           {/* Contato */}
           <div>

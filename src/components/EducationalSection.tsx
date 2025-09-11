@@ -1,7 +1,7 @@
 import { Book, Scale, FileText, AlertTriangle } from "lucide-react";
 export default function EducationalSection() {
-  return <section className="py-20 bg-background">
-      <div className="container mx-auto px-4">
+  return <section className="py-20 w-full h-screen bg-gradient-to-b from-white via-gray-50 to-gray-200">
+      <div className="container mx-auto px-4 ">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary mb-4">
             Entenda o bloqueio judicial e seus direitos

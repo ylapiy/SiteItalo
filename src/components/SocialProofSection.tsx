@@ -19,7 +19,7 @@ const testimonials = [{
   case: "Caso complexo solucionado"
 }];
 export default function SocialProofSection() {
-  return <section className="py-20 bg-secondary/30">
+  return <section className="py-20 w-full h-screen bg-gray-200">
       <div className="container mx-auto px-4">
         
         <div className="mb-16">
@@ -42,7 +42,21 @@ export default function SocialProofSection() {
                   Especializo-me em questões envolvendo bloqueios bancários, SISBAJUD, direitos do consumidor 
                   e demais questões relacionadas ao sistema financeiro nacional.
                 </p>
-                <a href="https://www.instagram.com/adv.italo.bezerra/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                <div>
+            <h4 className="text-xl font-bold mb-6">Áreas de Atuação</h4>
+              <ul className="space-y-3 text-black-100">
+              <li>• Desbloqueio SISBAJUD</li>
+              <li>• Indenização por negativação indevida</li>
+              <li>• Revisão de financiamento de veículo</li>
+              <li>• Renegociação de dívidas bancárias empresariais</li>
+              <li>• Revisão de cartão de crédito e cheque especial</li>
+              <li>• Revisional de Contratos</li>
+              <li>• Dentre outros.</li>
+              <li></li>
+              </ul>
+            </div>
+                
+                <a href="https://www.instagram.com/adv.italo.bezerra/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-gradient-to-tr from-[#f58529] via-[#dd2a7b] to-[#8134af] text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">
                   Aprenda mais sobre seus direitos
                 </a>
               </div>
@@ -51,7 +65,7 @@ export default function SocialProofSection() {
                   <img 
                     src="/lovable-uploads/26d6ebd5-af38-4550-91ed-4cf6be5c46be.png" 
                     alt="Italo Bezerra - Advogado especialista em direito bancário" 
-                    className="w-80 h-80 object-cover rounded-lg shadow-elegant"
+                    className="w-80 h-110 object-cover rounded-lg shadow-elegant"
                   />
                   <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground px-4 py-2 rounded-lg font-semibold">
                     OAB/PI 25.603

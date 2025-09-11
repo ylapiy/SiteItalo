@@ -5,6 +5,7 @@ import EducationalSection from "@/components/EducationalSection";
 import ProcessStepsSection from "@/components/ProcessStepsSection";
 import ContactFormSection from "@/components/ContactFormSection";
 import FooterSection from "@/components/FooterSection";
+import StickyContactButtons from "@/components/StickyContactButtons";
 
 const Index = () => {
   return (
@@ -15,20 +16,19 @@ const Index = () => {
         {/* Hero Section - Atenção (AIDA) */}
         <HeroSection />
         
-        {/* Benefits Section - Interesse (AIDA) */}
-        <BenefitsSection />
-        
-        {/* Social Proof - Desejo (AIDA) */}
+        {/* Educational Content - Autoridade + SEO */}
+          <ProcessStepsSection />
+
+        <EducationalSection />
+
         <SocialProofSection />
         
-        {/* Educational Content - Autoridade + SEO */}
-        <EducationalSection />
-        
         {/* Process Steps - Transparência */}
-        <ProcessStepsSection />
         
         {/* Contact Form - Ação (AIDA) */}
         <ContactFormSection />
+
+        <StickyContactButtons />
       </main>
       
       {/* Footer */}

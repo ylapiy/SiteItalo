@@ -62,7 +62,7 @@ export default function ContactFormSection() {
     const whatsappMessage = encodeURIComponent(`Olá! Meu nome é ${formData.name}. Preciso de ajuda com desbloqueio SISBAJUD. Telefone: ${formData.phone}`);
     window.open('https://api.whatsapp.com/send/?phone=5586999765214&text=Ol%C3%A1%21+Tive+minha+conta+banc%C3%A1ria+bloqueada+e+gostaria+de+saber+como+prosseguir.&type=phone_number&app_absent=0', '_blank');
   };
-  return <section className="py-20 bg-secondary/30">
+  return <section className="py-20 w-full h-screen bg-gradient-to-b from-gray-200 via-gray-300 to-gray-400">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
@@ -87,14 +87,14 @@ export default function ContactFormSection() {
                   <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
                     Telefone/WhatsApp *
                   </label>
-                  <Input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleInputChange} placeholder="(11) 99999-9999" required className="w-full" />
+                  <Input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleInputChange} placeholder="(11) 99999-9999" required className="w-full"/>
                 </div>
 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
                     E-mail
                   </label>
-                  <Input id="email" name="email" type="email" value={formData.email} onChange={handleInputChange} placeholder="seu@email.com" className="w-full" />
+                  <Input id="email" name="email" type="email" value={formData.email} onChange={handleInputChange} placeholder="seu@email.com" className="w-full" required/>
                 </div>
 
                 <div>
@@ -108,63 +108,9 @@ export default function ContactFormSection() {
                   📧 Enviar Mensagem
                 </Button>
                 
-                <p className="text-center text-sm text-muted-foreground">
-                  * Campos obrigatórios
-                </p>
               </form>
 
-              {/* Informações de contato integradas */}
-              <div className="mt-8 pt-8 border-t border-border">
-                <div className="grid md:grid-cols-3 gap-6 text-center">
-                  <div>
-                    <div className="bg-primary/10 p-3 rounded-full inline-block mb-2">
-                      <Phone className="h-6 w-6 text-primary" />
-                    </div>
-                    <h4 className="font-semibold text-primary">WhatsApp</h4>
-                    <p className="text-muted-foreground">(86) 99976-5214</p>
-                  </div>
-
-                  <div>
-                    <div className="bg-primary/10 p-3 rounded-full inline-block mb-2">
-                      <Mail className="h-6 w-6 text-primary" />
-                    </div>
-                    <h4 className="font-semibold text-primary">E-mail</h4>
-                    <p className="text-muted-foreground">silvaadvitalo@gmail.com</p>
-                  </div>
-
-                  <div>
-                    <div className="bg-primary/10 p-3 rounded-full inline-block mb-2">
-                      <Clock className="h-6 w-6 text-primary" />
-                    </div>
-                    <h4 className="font-semibold text-primary">Horário</h4>
-                    <p className="text-muted-foreground">Segunda à sexta, 8h às 18h</p>
-                  </div>
-                </div>
-                
-                <div className="mt-8 text-center">
-                  <div className="bg-gradient-primary text-primary-foreground p-6 rounded-lg">
-                    <h4 className="text-xl font-bold mb-4">Diferenciais do Meu Trabalho</h4>
-                    <div className="grid md:grid-cols-2 gap-4 text-sm">
-                      <div className="flex items-center gap-2">
-                        <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
-                        <span>Acompanhamento durante todo o processo</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
-                        <span>Consultoria personalizada</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
-                        <span>Especialização em direito bancário/consumidor</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
-                        <span>Suporte até a resolução</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      
             </div>
           </div>
         </div>

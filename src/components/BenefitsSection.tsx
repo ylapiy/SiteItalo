@@ -29,24 +29,23 @@ const benefits = [
 
 export default function BenefitsSection() {
   return (
-    <section className="py-20 bg-gradient-card">
+    <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary mb-4">
-            Por que escolher meus serviços?
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ofereço uma consultoria jurídica especializada em desbloqueio de contas e outras questões bancárias
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-black-100">
+            consultoria jurídica especializada em desbloqueio de contas e outras questões bancárias
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {benefits.map((benefit, index) => {
             const Icon = benefit.icon;
             return (
               <div 
                 key={index}
-                className="bg-card p-8 rounded-lg shadow-card hover:shadow-elegant transition-all duration-300 transform hover:-translate-y-2 border border-border"
+                className="bg-card p-4 rounded-lg shadow-card hover:shadow-elegant transition-all duration-300 transform hover:-translate-y-2 border border-border"
               >
                 <div className="flex flex-col items-center text-center space-y-4">
                   <div className="bg-primary/10 p-4 rounded-full">
