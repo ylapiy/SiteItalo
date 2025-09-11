@@ -1,5 +1,5 @@
 function Contatos({ link, Rede }) {
-  return <a className="Contato" href={link} target="blank_">{Rede}</a>;
+    return <a className="Contato" href={link} target="blank_">{Rede}</a>;
 }
 
 
