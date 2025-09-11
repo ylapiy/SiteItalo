@@ -28,7 +28,7 @@ export default function ProcessStepsSection() {
   const handleWhatsAppClick = () => {
     window.open('https://api.whatsapp.com/send/?phone=5586999765214&text=Ol%C3%A1%21+Tive+minha+conta+banc%C3%A1ria+bloqueada+e+gostaria+de+saber+como+prosseguir.&type=phone_number&app_absent=0', '_blank');
   };
-  return <section className="py-20 bg-gradient-primary text-primary-foreground">
+  return <section className="py-20 bg-gradient-to-r from-[hsl(210,100%,12%)] via-[hsl(210,100%,22%)] to-[hsl(210,100%,32%)] text-primary-foreground">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">

@@ -19,7 +19,7 @@ const testimonials = [{
   case: "Caso complexo solucionado"
 }];
 export default function SocialProofSection() {
-  return <section className="py-20 w-full h-screen bg-gray-200">
+  return <section className="py-20 w-full h-screen bg-gradient-to-b from-gray-200 via-gray-200 to-gray-200">
       <div className="container mx-auto px-4">
         
         <div className="mb-16">

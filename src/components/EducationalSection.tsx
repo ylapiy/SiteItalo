@@ -1,6 +1,6 @@
 import { Book, Scale, FileText, AlertTriangle } from "lucide-react";
 export default function EducationalSection() {
-  return <section className="py-20 w-full h-screen bg-gradient-to-b from-white via-gray-50 to-gray-200">
+  return <section className="py-10 w-full h-screen bg-gradient-to-b from-gray-100 via-gray-200 to-gray-200">
       <div className="container mx-auto px-4 ">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary mb-4">
@@ -21,7 +21,7 @@ export default function EducationalSection() {
                   </h3>
                   <p className="text-foreground leading-relaxed">
                     O <strong>bloqueio judicial</strong> através do SISBAJUD é um mecanismo que permite o 
-                    <strong> bloqueio de conta bancária</strong> para garantir execuções judiciais. Quando sua 
+                    <strong>bloqueio de conta bancária</strong> para garantir execuções judiciais. Quando sua 
                     <strong> conta é bloqueada judicialmente</strong>, nem todos os valores podem ser penhorados, 
                     e muitas vezes o sistema efetua o <strong>bloqueio de conta</strong> de forma incorreta ou excessiva.
                   </p>

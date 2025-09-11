@@ -3,7 +3,7 @@ export default function FooterSection() {
   const handleWhatsAppClick = () => {
     window.open('https://api.whatsapp.com/send/?phone=5586999765214&text=Ol%C3%A1%21+Tive+minha+conta+banc%C3%A1ria+bloqueada+e+gostaria+de+saber+como+prosseguir.&type=phone_number&app_absent=0', '_blank');
   };
-  return <footer className="bg-gradient-to-r from-[hsl(210,100%,12%)] via-[hsl(210,100%,22%)] to-[hsl(210,100%,32%)] w-full text-primary-foreground">
+  return <footer className="bg-gradient-to-l from-[hsl(210,100%,12%)] via-[hsl(210,100%,22%)] to-[hsl(210,100%,32%)] w-full text-primary-foreground">
     
       <div className="container mx-auto px-4 py-16">
         <div className="grid lg:grid-cols-4 gap-8">

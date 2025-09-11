@@ -21,7 +21,7 @@ const carouselData = [
   {
     image: carousel3,
     image2:  Icone,
-    subtitle: "Assessoria jurídica especializada em Direito Bancário e do Consumidor"
+    subtitle: "Assessoria especializada em Direito Bancário e do Consumidor"
   }
 ];
 
@@ -90,14 +90,12 @@ const HeroCarousel = () => {
       </button>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col">
+      <div className="relative z-10 text-center max-w-4xl mx-auto flex flex-col">
        <img
-  src={carouselData[currentSlide].image2}
-  alt="slide"
-  className="w-[50px] md:w-[400px] mb-8 mx-auto"
-/>
-
-
+        src={carouselData[currentSlide].image2}
+        alt="slide"
+        className="w-[50px] w-[350px] mb-2 mx-auto"
+        />
         <p className="text-xl md:text-2xl text-foreground/80 mb-8 max-w-2xl mx-auto transition-all duration-700">
           {carouselData[currentSlide].subtitle}
         </p>
@@ -110,19 +108,20 @@ const HeroCarousel = () => {
       </div>
 
       {/* Dots Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex space-x-3">
-        {carouselData.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setCurrentSlide(index)}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              index === currentSlide
-                ? "bg-primary scale-125"
-                : "bg-white/40 hover:bg-white/60"
-            }`}
-          />
-        ))}
-      </div>
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex items-center justify-center gap-3">
+  {carouselData.map((_, index) => (
+    <button
+      key={index}
+      onClick={() => setCurrentSlide(index)}
+      className={`w-4 h-4 rounded-full transition-all duration-300 ${
+        index === currentSlide
+          ? "bg-primary scale-125"
+          : "bg-white/40 hover:bg-white/60"
+      }`}
+    />
+  ))}
+</div>
+
     </section>
   );
 };
