@@ -64,7 +64,7 @@ export default function SocialProofSection() {
                 <div className="relative">
                   <img 
                     src="/lovable-uploads/26d6ebd5-af38-4550-91ed-4cf6be5c46be.png" 
-                    alt="Italo Bezerra - Advogado especialista em direito bancário" 
+                    alt="Italo Bezerra - Advogado atuante em direito bancário" 
                     className="w-64 h-80 sm:w-72 sm:h-96 lg:w-80 lg:h-110 object-cover rounded-lg shadow-elegant mx-auto"
                   />
                   <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground px-4 py-2 rounded-lg font-semibold">

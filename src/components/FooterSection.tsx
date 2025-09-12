@@ -15,7 +15,7 @@ export default function FooterSection() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold">Italo Bezerra Advocacia</h3>
-                <p className="text-blue-200 text-sm">Especialista em Direito Bancário</p>
+                <p className="text-blue-200 text-sm">Atuante em Direito Bancário</p>
               </div>
             </div>
             
@@ -69,7 +69,7 @@ export default function FooterSection() {
         <div className="grid md:grid-cols-2 gap-6 items-center">
           <div className="text-blue-100">
             <p className="font-semibold mb-2">
-              Atendimento online em todo o Brasil | Especialista em Direito Bancário
+              Atendimento online em todo o Brasil | Atuante em Direito Bancário
             </p>
             <p className="text-sm">
               Seguimos rigorosamente o Código de Ética da OAB - Advocacia responsável e transparente

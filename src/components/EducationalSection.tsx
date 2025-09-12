@@ -6,7 +6,7 @@ export default function EducationalSection() {
           <h2 className="text-4xl font-bold text-primary mb-4">
             Entenda o bloqueio judicial e seus direitos
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Saiba como um advogado especialista pode ajudar você a recuperar o acesso às suas contas</p>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Saiba como um advogado pode ajudar você a recuperar o acesso às suas contas</p>
         </div>
 
         <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
@@ -22,7 +22,7 @@ export default function EducationalSection() {
                   <p className="text-foreground leading-relaxed">
                     O <strong>bloqueio judicial</strong> através do SISBAJUD é um mecanismo que permite o 
                     <strong>bloqueio de conta bancária</strong> para garantir execuções judiciais. Quando sua 
-                    <strong> conta é bloqueada judicialmente</strong>, nem todos os valores podem ser penhorados, 
+                    <strong> conta é bloqueada judicialmente</strong>, nem todos os valores podem ser penhorados, 
                     e muitas vezes o sistema efetua o <strong>bloqueio de conta</strong> de forma incorreta ou excessiva.
                   </p>
                 </div>
@@ -69,11 +69,11 @@ export default function EducationalSection() {
                 <Book className="h-8 w-8 text-primary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="text-2xl font-bold text-primary mb-3">
-                    Como o advogado especialista em bloqueio judicial atua
+                    Como o advogado bancário atua
                   </h3>
                   <div className="space-y-4 text-foreground">
                     <p className="leading-relaxed">
-                      Um <strong>advogado para bloqueio judicial</strong> analisa juridicamente o 
+                      Um <strong>advogado que analisa juridicamente </strong> o 
                       <strong> bloqueio judicial na conta</strong> e identifica irregularidades ou valores 
                       que não deveriam estar em uma <strong>conta penhorada</strong>. Nossa atuação visa 
                       <strong> desbloquear conta bancária</strong> através de estratégias jurídicas fundamentadas.

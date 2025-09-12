@@ -34,7 +34,7 @@ export default function BenefitsSection() {
         <div className="text-center mb-5">
           <h2 className="text-4xl font-bold text-primary mb-4">
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-2xl text-muted-foreground max-w-2xl mx-auto">
             consultoria jurídica especializada em desbloqueio de contas e outras questões bancárias
           </p>
         </div>

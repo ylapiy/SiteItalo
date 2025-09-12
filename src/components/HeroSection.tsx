@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/buttonS";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
-import carousel1 from "@/assets/hero-image.jpg";
-import carousel2 from "@/assets/hero-image.jpg";
-import carousel3 from "@/assets/hero-image.jpg";
+import carousel1 from "@/assets/car3.jpg";
+import carousel2 from "@/assets/carDinheiro.jpg";
+import carousel3 from "@/assets/CarTrabalho.jpg";
 import Icone from "@/assets/81235b92-7f40-412e-bb08-7e36e4759ab0-removebg-preview.png"
 import Beneficios from "./BenefitsSection.tsx"
 
@@ -11,17 +11,17 @@ const carouselData = [
   {
     image: carousel1,
     image2: Icone ,
-    subtitle: "Advogado especialista em SISBAJUD"
+    subtitle: "Bloqueio de Conta: Seu Dinheiro Congelado?"
   },
   {
     image: carousel2,
     image2:  Icone,
-    subtitle: "Ajudando a entender o bloqueio e as possibilidades jurídicas"
+    subtitle: "Calma! muita gente passa por isso, mas nem tudo está perdido"
   },
   {
     image: carousel3,
     image2:  Icone,
-    subtitle: "Assessoria especializada em Direito Bancário e do Consumidor"
+    subtitle: "Fale com um Advogado"
   }
 ];
 
@@ -96,9 +96,9 @@ const HeroCarousel = () => {
         alt="slide"
         className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 mx-auto object-contain"
         />
-        <p className="text-xl md:text-2xl text-foreground/80 mb-8 max-w-2xl mx-auto transition-all duration-700">
+        <strong><p className="text-xl md:text-2xl text-foreground/80 mb-8 max-w-2xl mx-auto transition-all duration-700">
           {carouselData[currentSlide].subtitle}
-        </p>
+        </p></strong>
         <div className="flex flex-col sm:flex-row gap-4 justify-center ">
           <Button variant="hero" size="lg" className="bg-green-500 hover:bg-green-600" onClick={handleWhatsApp}>
             Quero Falar com um Advogado <ArrowRight className="w-5 h-5" />
