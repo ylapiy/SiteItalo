@@ -1,4 +1,4 @@
-# Projeto Site para Advogado Bancário Ítalo Bezerra
+# Projeto Site para Advogado Bancário Italo Bezerra
 
 Este projeto foi desenvolvido para o advogado bancário Ítalo Bezerr.
 Ele já havia criado uma base inicial utilizando o Lovable, porém algumas partes não estavam ficando satisfatórias.
