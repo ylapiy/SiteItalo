@@ -94,7 +94,7 @@ const HeroCarousel = () => {
        <img
         src={carouselData[currentSlide].image2}
         alt="slide"
-        className="w-[50px] w-[350px] mb-2 mx-auto"
+        className="w-[350px] w-[350px] mx-auto"
         />
         <p className="text-xl md:text-2xl text-foreground/80 mb-8 max-w-2xl mx-auto transition-all duration-700">
           {carouselData[currentSlide].subtitle}
