@@ -1,6 +1,6 @@
 import { Book, Scale, FileText, AlertTriangle } from "lucide-react";
 export default function EducationalSection() {
-  return <section className="py-10 w-full h-screen bg-gradient-to-b from-gray-100 via-gray-200 to-gray-200">
+  return <section className="py-10 w-full min-h-screen bg-gradient-to-b from-gray-100 via-gray-200 to-gray-200">
       <div className="container mx-auto px-4 ">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary mb-4">
@@ -9,7 +9,7 @@ export default function EducationalSection() {
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Saiba como um advogado especialista pode ajudar você a recuperar o acesso às suas contas</p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           {/* Coluna Esquerda - O que é */}
           <div className="space-y-8">
             <div className="bg-card p-8 rounded-lg shadow-card border border-border">

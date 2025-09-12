@@ -19,12 +19,12 @@ const testimonials = [{
   case: "Caso complexo solucionado"
 }];
 export default function SocialProofSection() {
-  return <section className="py-20 w-full h-screen bg-gradient-to-b from-gray-200 via-gray-200 to-gray-200">
+  return <section className="py-20 w-full min-h-screen bg-gradient-to-b from-gray-200 via-gray-200 to-gray-200">
       <div className="container mx-auto px-4">
         
         <div className="mb-16">
           <div className="bg-card p-8 rounded-lg shadow-card border border-border max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-8 items-center">
+            <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-center">
               <div className="order-2 lg:order-1">
                 <h2 className="text-3xl font-bold text-primary mb-6">Sobre o Advogado</h2>
                 <h3 className="text-2xl font-semibold text-primary mb-4">Italo Bezerra</h3>
@@ -44,7 +44,7 @@ export default function SocialProofSection() {
                 </p>
                 <div>
             <h4 className="text-xl font-bold mb-6">Áreas de Atuação</h4>
-              <ul className="space-y-3 text-black-100">
+              <ul className="space-y-3 text-foreground">
               <li>• Desbloqueio SISBAJUD</li>
               <li>• Indenização por negativação indevida</li>
               <li>• Revisão de financiamento de veículo</li>
@@ -65,7 +65,7 @@ export default function SocialProofSection() {
                   <img 
                     src="/lovable-uploads/26d6ebd5-af38-4550-91ed-4cf6be5c46be.png" 
                     alt="Italo Bezerra - Advogado especialista em direito bancário" 
-                    className="w-80 h-110 object-cover rounded-lg shadow-elegant"
+                    className="w-64 h-80 sm:w-72 sm:h-96 lg:w-80 lg:h-110 object-cover rounded-lg shadow-elegant mx-auto"
                   />
                   <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground px-4 py-2 rounded-lg font-semibold">
                     OAB/PI 25.603

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/buttonS";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import carousel1 from "@/assets/hero-image.jpg";
 import carousel2 from "@/assets/hero-image.jpg";
@@ -94,7 +94,7 @@ const HeroCarousel = () => {
        <img
         src={carouselData[currentSlide].image2}
         alt="slide"
-        className="w-[350px] w-[350px] mx-auto"
+        className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 mx-auto object-contain"
         />
         <p className="text-xl md:text-2xl text-foreground/80 mb-8 max-w-2xl mx-auto transition-all duration-700">
           {carouselData[currentSlide].subtitle}

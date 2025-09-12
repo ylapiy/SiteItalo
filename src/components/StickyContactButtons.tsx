@@ -16,21 +16,21 @@ const StickyContactButtons = () => {
   }
 
   return (
-    <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-50">
+    <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 flex flex-col gap-3 z-50">
       <Button
         onClick={handleWhatsApp}
-        className="w-20 h-20 rounded-full bg-green-500 hover:bg-green-600 text-white shadow-glow-primary/20 transition-spring hover:scale-110"
+        className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full bg-green-500 hover:bg-green-600 text-white shadow-elegant transition-all hover:scale-110"
         size="icon"
         >
-        <MessageCircle className="w-6 h-6" />
+        <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
       </Button>
        <Button
         onClick={HandleInsta}
         variant="hero"
-       className="w-20 h-20 rounded-full bg-gradient-to-tr from-[#f58529] via-[#dd2a7b] to-[#8134af] shadow-glow-primary/20 transition-all duration-300 hover:scale-110 hover:brightness-90"
+       className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full bg-gradient-to-tr from-[#f58529] via-[#dd2a7b] to-[#8134af] shadow-elegant transition-all duration-300 hover:scale-110 hover:brightness-90"
         size="icon"
       >
-        <Instagram className="w-6 h-6" />
+        <Instagram className="w-5 h-5 sm:w-6 sm:h-6" />
       </Button>
     </div>
   );

@@ -62,7 +62,7 @@ export default function ContactFormSection() {
     const whatsappMessage = encodeURIComponent(`Olá! Meu nome é ${formData.name}. Preciso de ajuda com desbloqueio SISBAJUD. Telefone: ${formData.phone}`);
     window.open('https://api.whatsapp.com/send/?phone=5586999765214&text=Ol%C3%A1%21+Tive+minha+conta+banc%C3%A1ria+bloqueada+e+gostaria+de+saber+como+prosseguir.&type=phone_number&app_absent=0', '_blank');
   };
-  return <section className="py-20 w-full h-screen bg-gradient-to-b from-gray-200 via-gray-200 to-gray-300">
+  return <section className="py-20 w-full min-h-screen bg-gradient-to-b from-gray-200 via-gray-200 to-gray-300">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
